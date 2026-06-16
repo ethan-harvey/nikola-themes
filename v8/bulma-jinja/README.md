@@ -15,8 +15,10 @@ You can customize the navbar appearance in your `conf.py`:
 
 ```python
 THEME_CONFIG = {
-    'navbar_light': False,  # Set to True for light navbar
-    'navbar_custom_bg': '',  # Custom background class, e.g., 'has-background-info'
+    DEFAULT_LANG: {
+        'navbar_light': False,  # Set to True for light navbar
+        'navbar_custom_bg': '',  # Custom background class, e.g., 'has-background-info'
+    }
 }
 ```
 
